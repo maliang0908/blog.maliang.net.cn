@@ -1,0 +1,312 @@
+.container .box-content {
+  background-color: #fcfcfc;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.box-content .carousel .item .row:first-child{
+  margin-top: 20px;
+}
+
+.panel-default {
+  border-color: #ddd;
+}
+
+.panel .panel-heading .panel-title {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.panel .panel-heading .pull-right {
+  font-size: 12px;
+}
+
+.panel ul {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.panel ul.post-list li {
+  color: #ccc;
+  line-height: 2.4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.panel ul.post-list li i {
+  margin-right: 5px;
+}
+
+.page-header {
+  margin-top: 0;
+  padding-bottom: 4px;
+}
+
+.page-header h1 {
+  display: inline-block;
+  line-height: 20px;
+  margin: 4px 8px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.page-header h2 {
+  display: inline-block;
+  font-size: 18px;
+  margin: 1px 4px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.page-header h2 em {
+  color: #d8582b;
+  font-style: normal;
+}
+
+.action {
+  border-bottom: 1px solid #eee;
+  color: #999;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.action span:not(.pull-right) {
+  margin-right: 15px;
+}
+
+.action a:not(.addition) {
+  color: #999;
+  text-decoration: none;
+}
+
+.action a.up {
+  margin-right: 15px;
+}
+
+.page-header .nav-tabs {
+  border-bottom: 1px solid #eee;
+  float: right;
+}
+
+.page-header .nav-sub li a {
+  font-size: 12px;
+  line-height: 28px;
+  padding: 0 10px;
+}
+
+.media-list .media {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+.media-list .media-body .media-heading {
+  color: #999;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+.media-list .media-body .hint {
+  color: #999;
+  font-size: 12px;
+}
+
+.media-list .media-body .hint em {
+  color: #d8582b;
+  font-style: normal;
+}
+
+.media-list .media-body .media {
+  border-bottom: medium none;
+  border-top: 1px solid #eee;
+  margin: 5px 0 0;
+  padding: 10px 0 0;
+}
+
+.media-list .media-action {
+  color: #999;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.media-list .media-action a {
+  color: #666;
+  text-decoration: none;
+}
+
+.media-action a.up, .media-action a.down {
+  margin-left: 10px;
+}
+
+.media-object, .media-user .media-object {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  height: 48px;
+  padding: 2px;
+  width: 48px;
+}
+
+.site-error h1 {
+  font-family: Arial;
+  font-size: 4rem;
+  color: #ccc;
+  margin: 100px 0 60px;
+  text-align: center;
+  width: 100%;
+}
+
+.error-search {
+  padding: 20px;
+  width: 80%;
+}
+
+.user {
+  padding: 45px 0 0;
+  text-align: center;
+}
+
+.user img.avatar {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+.user .button {
+  margin-bottom: 10px;
+}
+
+.user .stat {
+  border-top: 1px solid #eee;
+  height: 80px;
+  padding-top: 20px;
+}
+
+.user .stat li {
+  border-right: 1px solid #eee;
+  float: left;
+  font-size: 18px;
+  list-style: outside none none;
+  text-align: center;
+  width: 33.33%;
+}
+
+.user .stat li:last-child {
+  border-right: medium none;
+}
+
+.panel ul li:last-child {
+  border-bottom: medium none;
+}
+
+.user .stat li h3 {
+  color: #d8582b;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.panel-body .fund{
+  width: 100%;
+}
+
+.main-content .nano > .nano-pane {
+  width: 0;
+}
+
+.flash-view{
+  margin-bottom: 20px;
+}
+
+.page-header .nav-tabs {
+  border-bottom: 1px solid #eee;
+  float: right;
+}
+
+.page-header .nav-main li a {
+  line-height: 36px;
+  padding: 0 12px;
+}
+
+.media-list .media {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+.media-object, .media-user .media-object {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  height: 48px;
+  padding: 2px;
+  width: 48px;
+}
+
+.media-list .media-body {
+  word-break: break-all;
+}
+
+.media-list .media-body h2.media-heading {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.media-list .media-body .media-heading {
+  color: #999;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+.media-list .media-body h2.media-heading small {
+  color: #d9534f;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.media-list .media-body h2.media-heading small .fa {
+  color: #f0ad4e;
+}
+
+.btn-default {
+  background-image: linear-gradient(to bottom, #fff 0%, #e0e0e0 100%);
+  background-repeat: repeat-x;
+  border-color: #ccc;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.media-list .media-right .btn-default {
+  color: #999;
+  display: block;
+  font-weight: 500;
+  height: 48px;
+  line-height: 26px;
+  padding: 0;
+  text-align: center;
+  width: 45px;
+}
+
+.media-list .media-right .btn-default h4 {
+  background: #ddd none repeat scroll 0 0;
+  font-weight: normal;
+  line-height: 20px;
+  margin: 0;
+}
+
+.dot {
+  margin: 0 10px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+}

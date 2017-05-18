@@ -1,0 +1,44 @@
+{
+  "name": "dhiraj/yii2-malihu-custom-scrollbar-plugin",
+  "description": "Asset Bundle for Yii2 with yii2-malihu-custom-scrollbar-plugin",
+  "keywords": [
+    "yii",
+    "jquery",
+    "yii2-malihu-custom-scrollbar-plugin",
+    "custom scrollbar",
+    "asset",
+    "bundle"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/dhiraj/yii2-malihu-custom-scrollbar-plugin/issues",
+    "source": "https://github.com/dhiraj/yii2-malihu-custom-scrollbar-plugin"
+  },
+  "authors": [
+    {
+      "name": "Dhiraj Gupta",
+      "email": "dhiraj@traversient.com",
+      "homepage": "http://traversient.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+
+    "yiisoft/yii2": "2.0.*",
+    "bower-asset/malihu-custom-scrollbar-plugin": "^3.1",
+    "bower-asset/jquery": "2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "traversient\\yii\\customscrollbar\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
