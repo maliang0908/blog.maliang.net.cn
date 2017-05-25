@@ -17,7 +17,7 @@ $this->registerJsFile('/js/jquery.nanoscroller.min.js', ['depends' => \app\asset
 ?>
 <!-- 轮播start -->
 <div class="row hidden-xs flash-view">
-    <div class="col-lg-12">
+    <div class="col-xs-12">
         <?= Carousel::widget([
             'items' => [
                 [
@@ -38,7 +38,7 @@ $this->registerJsFile('/js/jquery.nanoscroller.min.js', ['depends' => \app\asset
 </div>
 <!-- 轮播end -->
 <div class="row">
-    <div class="col-lg-3 hidden-xs">
+    <div class="col-xs-3 hidden-xs">
         <div class="panel panel-default" style="background: url(http://www.yiichina.com/images/user-bg.jpg) #fff; background-size:100% 120px; background-repeat:no-repeat;">
             <div class="panel-body">
                 <div class="user">
@@ -89,7 +89,7 @@ $this->registerJsFile('/js/jquery.nanoscroller.min.js', ['depends' => \app\asset
         <!-- 打赏end -->
     </div>
     <!--  动态start -->
-    <div class="col-lg-9">
+    <div class="col-xs-9">
         <div class="panel panel-default  main-content">
             <div class="panel-body">
                 <ul id="w1" class="media-list">
@@ -125,12 +125,12 @@ $this->registerJsFile('/js/jquery.nanoscroller.min.js', ['depends' => \app\asset
     </div>
     <!--  动态end-->
     <!-- 友情链接start -->
-    <div class="col-lg-3 visible-xs-block">
+    <div class="col-xs-3 visible-xs-block">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h2 class="panel-title">
                     <i class="fa fa-file-word-o"></i>
-                    友情资助
+                    打赏
                 </h2>
             </div>
             <div class="panel-body">

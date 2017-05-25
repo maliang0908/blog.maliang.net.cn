@@ -322,3 +322,7 @@ div.required label:after {
   content: " *";
   color: red;
 }
+
+.panel-body img{
+  max-width: 100%;
+}
