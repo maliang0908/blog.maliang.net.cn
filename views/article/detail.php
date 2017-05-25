@@ -16,8 +16,10 @@ $this->params['breadcrumbs'] = [
     $article->title
 ];
 ?>
+<div  id='wx_pic'  style="margin:0 auto;display:none;">
+    <img src="/images/pic300.jpg">
+</div>
 <div class="row">
-    <img src="/images/a1.jpg" alt="" style="width:0px; height:0px; overflow:hidden">
     <div class="col-sm-9">
         <div class="panel panel-default">
             <div class="panel-body">
@@ -127,12 +129,12 @@ $this->params['breadcrumbs'] = [
                                             <div class="media-heading">
                                                 <a href="/user/32493" rel="author">iceluo</a>
                                                 评论于 2015-08-24 14:02
-<span class="pull-right">
-<a class="reply" href="javascript:void(0);">
-    <i class="fa fa-reply"></i>
-    回复
-</a>
-</span>
+                                            <span class="pull-right">
+                                            <a class="reply" href="javascript:void(0);">
+                                                <i class="fa fa-reply"></i>
+                                                回复
+                                            </a>
+                                            </span>
                                             </div>
                                             <div class="media-content">
                                                 <p>foreach</p>
@@ -149,12 +151,12 @@ $this->params['breadcrumbs'] = [
                                             <div class="media-heading">
                                                 <a href="/user/32674" rel="author" data-original-title="" title="">晦涩de咚</a>
                                                 评论于 2015-11-26 10:12
-<span class="pull-right">
-<a class="reply" href="javascript:void(0);">
-    <i class="fa fa-reply"></i>
-    回复
-</a>
-</span>
+                                            <span class="pull-right">
+                                            <a class="reply" href="javascript:void(0);">
+                                                <i class="fa fa-reply"></i>
+                                                回复
+                                            </a>
+                                            </span>
                                             </div>
                                             <div class="media-content">
                                                 <p>
