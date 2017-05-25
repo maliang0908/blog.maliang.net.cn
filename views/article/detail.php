@@ -94,7 +94,7 @@ $this->params['breadcrumbs'] = [
                         <li class="media" data-key="5512">
                             <div class="media-left">
                                 <a href="/user/38329" rel="author">
-                                    <img class="media-object" src="/images/a2.jpg" alt="wushshsha">
+                                    <img class="media-object" src="images/a2.jpg" alt="wushshsha">
                                 </a>
                             </div>
                             <div class="media-body">
@@ -118,7 +118,7 @@ $this->params['breadcrumbs'] = [
                                     <div class="media">
                                         <div class="media-left">
                                             <a href="/user/32493" rel="author">
-                                                <img class="media-object" src="/images/a7.jpg" alt="iceluo">
+                                                <img class="media-object" src="images/a7.jpg" alt="iceluo">
                                             </a>
                                         </div>
                                         <div class="media-body">
@@ -140,7 +140,7 @@ $this->params['breadcrumbs'] = [
                                     <div class="media">
                                         <div class="media-left">
                                             <a href="/user/32674" rel="author">
-                                                <img class="media-object" src="/images/a8.jpg" alt="晦涩de咚">
+                                                <img class="media-object" src="images/a8.jpg" alt="晦涩de咚">
                                             </a>
                                         </div>
                                         <div class="media-body">
@@ -184,7 +184,7 @@ $this->params['breadcrumbs'] = [
                         <li class="media" data-key="5516">
                             <div class="media-left">
                                 <a href="/user/28426" rel="author">
-                                    <img class="media-object" src="/images/a3.jpg" alt="qc100f">
+                                    <img class="media-object" src="images/a3.jpg" alt="qc100f">
                                 </a>
                             </div>
                             <div class="media-body">
