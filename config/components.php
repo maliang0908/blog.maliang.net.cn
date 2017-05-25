@@ -12,9 +12,9 @@ return [
     ],
 
     // 缓存配置
-    'cache' => [
-        'class' => 'yii\redis\Cache',
-    ],
+    //'cache' => [
+     //   'class' => 'yii\redis\Cache',
+   // ],
 
     // 邮件配置
     'mailer' => [
@@ -74,7 +74,7 @@ return [
     'urlManager' => [
         'enablePrettyUrl' => true,
         'showScriptName'  => false, //隐藏index.php
-        //'suffix' => '.html', //后缀
+        'suffix' => '.html', //后缀
         'rules' => require(__DIR__ . '/rules.php'),
     ],
 
@@ -109,5 +109,5 @@ return [
     'db' => require(__DIR__ . '/db.php'),
 
     // Redis配置
-    'redis' => require(__DIR__ . '/redis.php'),
+    //'redis' => require(__DIR__ . '/redis.php'),
 ];
