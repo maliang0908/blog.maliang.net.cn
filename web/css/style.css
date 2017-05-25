@@ -7,6 +7,10 @@
   padding: 0 20px;
 }
 
+.panel-body p img{
+  max-width: 100%;
+}
+
 .box-content .carousel .item .row:first-child{
   margin-top: 20px;
 }
@@ -321,8 +325,4 @@ h4 {
 div.required label:after {
   content: " *";
   color: red;
-}
-
-.panel-body img{
-  max-width: 100%;
 }
