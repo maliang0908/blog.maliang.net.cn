@@ -25,6 +25,8 @@ class ComposerStaticInit3635e78bd910d465aa88e47ee2607adc
             'yii\\composer\\' => 13,
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
+            'yidashi\\webuploader\\' => 20,
+            'yidashi\\markdown\\' => 17,
         ),
         't' => 
         array (
@@ -129,6 +131,14 @@ class ComposerStaticInit3635e78bd910d465aa88e47ee2607adc
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
+        ),
+        'yidashi\\webuploader\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yidashi/yii2-webuploader',
+        ),
+        'yidashi\\markdown\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yidashi/yii2-bootstrap-markdown',
         ),
         'traversient\\yii\\customscrollbar\\' => 
         array (

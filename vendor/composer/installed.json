@@ -3553,5 +3553,63 @@
             "jquery",
             "scrollbar"
         ]
+    },
+    {
+        "name": "yidashi/yii2-bootstrap-markdown",
+        "version": "v2.0.3",
+        "version_normalized": "2.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yidashi/yii2-bootstrap-markdown.git",
+            "reference": "9df58be2387f77afe6f7ea508b0a992bf8093289"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/yidashi/yii2-bootstrap-markdown/9df58be2387f77afe6f7ea508b0a992bf8093289.zip",
+            "reference": "9df58be2387f77afe6f7ea508b0a992bf8093289",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2016-11-25 02:32:25",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "yidashi\\markdown\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "description": "yii2-bootstrap-markdown"
+    },
+    {
+        "name": "yidashi/yii2-webuploader",
+        "version": "v1.4.2",
+        "version_normalized": "1.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yidashi/yii2-webuploader.git",
+            "reference": "196a7bfe3c1a28af08f86f128bbb4c39e4a7f14f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/yidashi/yii2-webuploader/196a7bfe3c1a28af08f86f128bbb4c39e4a7f14f.zip",
+            "reference": "196a7bfe3c1a28af08f86f128bbb4c39e4a7f14f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2016-07-14 11:02:43",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "yidashi\\webuploader\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "description": "yii2-webuploader"
     }
 ]

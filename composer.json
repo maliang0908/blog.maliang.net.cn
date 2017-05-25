@@ -22,7 +22,10 @@
         "bluezed/yii2-scroll-top": "*",
         "sersid/yii2-font-awesome-asset": "^1.0",
         "dhiraj/yii2-malihu-custom-scrollbar-plugin": "^1.0",
-        "kartik-v/yii2-dialog": "*"
+        "kartik-v/yii2-dialog": "*",
+        "yidashi/yii2-bootstrap-markdown": "*",
+        "yidashi/yii2-webuploader": "^1.4",
+        "myweishanli/yii2-ip2location": "^1.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

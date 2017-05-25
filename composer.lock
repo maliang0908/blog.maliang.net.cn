@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9e4b3dc9ff39fa23db5e6e89c09d7bcb",
-    "content-hash": "0be9da3464d526e36e1681a58ab60155",
+    "hash": "9a267294c70079eb3a7bb35dbbbf6ed8",
+    "content-hash": "b14b1da66ad2bf37e04e62529d223d38",
     "packages": [
         {
             "name": "bluezed/yii2-scroll-top",
@@ -781,6 +781,60 @@
                 "mailer"
             ],
             "time": "2017-05-01 15:54:03"
+        },
+        {
+            "name": "yidashi/yii2-bootstrap-markdown",
+            "version": "v2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yidashi/yii2-bootstrap-markdown.git",
+                "reference": "9df58be2387f77afe6f7ea508b0a992bf8093289"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/yidashi/yii2-bootstrap-markdown/9df58be2387f77afe6f7ea508b0a992bf8093289.zip",
+                "reference": "9df58be2387f77afe6f7ea508b0a992bf8093289",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "yidashi\\markdown\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "yii2-bootstrap-markdown",
+            "time": "2016-11-25 02:32:25"
+        },
+        {
+            "name": "yidashi/yii2-webuploader",
+            "version": "v1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yidashi/yii2-webuploader.git",
+                "reference": "196a7bfe3c1a28af08f86f128bbb4c39e4a7f14f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/yidashi/yii2-webuploader/196a7bfe3c1a28af08f86f128bbb4c39e4a7f14f.zip",
+                "reference": "196a7bfe3c1a28af08f86f128bbb4c39e4a7f14f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "yidashi\\webuploader\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "yii2-webuploader",
+            "time": "2016-07-14 11:02:43"
         },
         {
             "name": "yiisoft/yii2",

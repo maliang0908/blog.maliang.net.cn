@@ -14,3 +14,4 @@ SYSTEM_REDIS_DATABASE = 0
 
 YII_DEBUG = true
 YII_ENV = 'dev'
+

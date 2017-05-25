@@ -16,6 +16,25 @@ return [
      //   'class' => 'yii\redis\Cache',
    // ],
 
+    // 邮件配置
+    'mailer' => [
+        'class' => 'yii\swiftmailer\Mailer',
+        'viewPath' => '@app/mail',
+        'useFileTransport' =>false,//这句一定有，false发送邮件，true只是生成邮件在runtime文件夹下，不发邮件
+        'transport' => [
+            'class' => 'Swift_SmtpTransport',
+            'host' => 'smtp.163.com',  //每种邮箱的host配置不一样
+            'username' => 'maliang_net_cn@163.com',
+            'password' => 'maliang900908',
+            'port' => '25',
+            'encryption' => 'tls',
+        ],
+        'messageConfig'=>[
+            'charset'=>'UTF-8',
+            'from'=>['maliang_net_cn@163.com' => '马亮']
+        ],
+    ],
+
     // 日志配置
     'log' => [
         'traceLevel' => YII_DEBUG ? 3 : 0,
@@ -30,7 +49,19 @@ return [
                 'logFile'=>'@runtime/logs/normal.log',
                 'levels' => ['info','profile'],
                 'logVars'=>['_GET', '_POST', '_COOKIE']
-            ]
+            ],
+            // 发送邮件
+           /* [
+                'class' => 'yii\log\EmailTarget',
+                'mailer' => 'mailer',
+                'levels' => ['error'],
+                'logVars' => [],
+                'message' => [
+                    'from' => ['maliang_net_cn@163.com' =>  '马亮'],
+                    'to' => ['273327242@qq.com', '13141234768@163.com'],
+                    'subject' => '系统错误邮件',
+                ],
+            ],*/
         ]
     ],
 
