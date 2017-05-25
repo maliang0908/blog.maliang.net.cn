@@ -10,6 +10,7 @@
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\helpers\Markdown;
+$this->title = $article->title;
 $this->params['breadcrumbs'] = [
     ['label' => '文章', 'url' => ['article/index']],
     $article->title
