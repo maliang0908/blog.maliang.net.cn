@@ -146,4 +146,5 @@ class IndexController extends Controller
             $talk->insert();
         }
     }
+
 }
