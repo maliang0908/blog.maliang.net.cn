@@ -74,7 +74,7 @@ return [
     'urlManager' => [
         'enablePrettyUrl' => true,
         'showScriptName'  => false, //隐藏index.php
-        'suffix' => '.html', //后缀
+        //'suffix' => '.html', //后缀
         'rules' => require(__DIR__ . '/rules.php'),
     ],
 
