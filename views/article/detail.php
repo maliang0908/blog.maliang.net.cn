@@ -17,6 +17,7 @@ $this->params['breadcrumbs'] = [
 ];
 ?>
 <div class="row">
+    <img src="/images/a1.jpg" alt="" style="width:0px; height:0px; overflow:hidden">
     <div class="col-sm-9">
         <div class="panel panel-default">
             <div class="panel-body">
