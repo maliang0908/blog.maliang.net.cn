@@ -7,6 +7,7 @@
  */
 /* @var $blogRoll \app\models\BlogRoll */
 /* @var $userDynamic \app\models\UserDynamic */
+use yii\helpers\Url;
 use yii\helpers\Html;
 use yii\bootstrap\Carousel;
 use app\models\UserDynamic;
@@ -37,7 +38,7 @@ $this->registerJsFile('/js/jquery.nanoscroller.min.js', ['depends' => \app\asset
 </div>
 <!-- 轮播end -->
 <div class="row">
-    <div class="col-lg-3 hidden-xs">
+    <div class="col-xs-3 hidden-xs">
         <div class="panel panel-default" style="background: url(http://www.yiichina.com/images/user-bg.jpg) #fff; background-size:100% 120px; background-repeat:no-repeat;">
             <div class="panel-body">
                 <div class="user">
@@ -71,12 +72,12 @@ $this->registerJsFile('/js/jquery.nanoscroller.min.js', ['depends' => \app\asset
             </div>
         </div>
         <!-- 友情链接end -->
-        <!-- 扫码资助start -->
+        <!-- 打赏start -->
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h2 class="panel-title">
                     <i class="fa fa-retweet"></i>
-                    扫码资助
+                    打赏
                 </h2>
             </div>
             <div class="panel-body">
@@ -85,10 +86,10 @@ $this->registerJsFile('/js/jquery.nanoscroller.min.js', ['depends' => \app\asset
                 </a>
             </div>
         </div>
-        <!-- 扫码资助end -->
+        <!-- 打赏end -->
     </div>
     <!--  动态start -->
-    <div class="col-lg-9">
+    <div class="col-xs-9">
         <div class="panel panel-default  main-content">
             <div class="panel-body">
                 <ul id="w1" class="media-list">
@@ -106,13 +107,13 @@ $this->registerJsFile('/js/jquery.nanoscroller.min.js', ['depends' => \app\asset
                             </div>
                             <?php $model = $val->category == UserDynamic::CATEGORY_ARTICLE ? $val->article : $val->talk; ?>
                             <div class="media-content">
-                                <a href="/article/index"><?= Html::encode($val->category == UserDynamic::CATEGORY_ARTICLE ? $val->article->title : $val->talk->content); ?></a>
+                                <a href="<?= Url::toRoute($val->category == UserDynamic::CATEGORY_ARTICLE ? ['article/detail', 'id' => $val->id] : ['talk/detail', 'id' => $val->id]); ?>" target="_blank"><?= Html::encode($val->category == UserDynamic::CATEGORY_ARTICLE ? $val->article->title : $val->talk->content); ?></a>
                             </div>
                             <div class="media-action">
                                 <span><?= date('Y-m-d H:i:s', $val->created_at); ?></span>
                             <span class="pull-right">
                             浏览(<?= $model->browse_num; ?>) |
-                            <a href="/article/index">评论(<?= $model->comment_num; ?>)</a>
+                            评论(<?= $model->comment_num; ?>)
                             </span>
                             </div>
                         </div>
@@ -124,7 +125,7 @@ $this->registerJsFile('/js/jquery.nanoscroller.min.js', ['depends' => \app\asset
     </div>
     <!--  动态end-->
     <!-- 友情链接start -->
-    <div class="col-lg-3 visible-xs-block">
+    <div class="col-xs-3 visible-xs-block">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h2 class="panel-title">

@@ -11,7 +11,11 @@ $config = [
     'modules'    => [],
     'language'   => 'zh-CN',
     'components' => require(__DIR__ . '/components.php'),
-    'params' => require(__DIR__ . '/params.php')
+    'params' => require(__DIR__ . '/params.php'),
+    'aliases' => [
+        '@static' => 'images',
+        '@staticroot' => 'images'
+    ],
 ];
 
 if (YII_ENV_DEV) {

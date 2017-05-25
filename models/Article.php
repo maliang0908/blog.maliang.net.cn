@@ -20,14 +20,37 @@ use Yii;
  */
 class Article extends \yii\db\ActiveRecord
 {
-    const category_php = 1; // PHP
-    const category_javascript = 2; // JavaScript
-    const category_node = 3; // Node
+    const CATEGORY_PHP = 1; // PHP
+    const CATEGORY_JAVASCRIPT = 2; // JavaScript
+    const CATEGORY_NODE = 3; // Node
+    const CATEGORY_YII2 = 4; // Yii2
+    const CATEGORY_LINUX = 5; // LINUX
+
+    const SORT_NEW = 1; // 最新
+    const SORT_BROWSE = 2; // 浏览
+    const SORT_COLLECT = 3; // 收藏
+    const SORT_COMMENT= 4; // 评论
 
     public $categoryArray = [
-        self::category_php => 'PHP',
-        self::category_javascript => 'JavaScript',
-        self::category_node => 'Node',
+        self::CATEGORY_PHP => 'PHP',
+        self::CATEGORY_JAVASCRIPT => 'JavaScript',
+        self::CATEGORY_NODE => 'Node',
+        self::CATEGORY_YII2 => 'Yii2',
+        self::CATEGORY_LINUX => 'Linux',
+    ];
+
+    public static $sortArray = [
+        self::SORT_NEW => '最新发布',
+        self::SORT_BROWSE => '最多浏览',
+        self::SORT_COLLECT => '最多收藏',
+        self::SORT_COMMENT => '最多评论'
+    ];
+
+    public static $sortFieldArray = [
+        self::SORT_NEW => 'created_at',
+        self::SORT_BROWSE => 'browse_num',
+        self::SORT_COLLECT => 'collect_num',
+        self::SORT_COMMENT => 'comment_num'
     ];
     
     /**
@@ -44,8 +67,8 @@ class Article extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
+            [['title', 'category', 'content'], 'required'],
             [['category', 'browse_num', 'comment_num', 'collect_num', 'praise_num', 'tread_num', 'status'], 'integer'],
-            [['content'], 'required'],
             [['content'], 'string'],
             [['title'], 'string', 'max' => 80],
         ];

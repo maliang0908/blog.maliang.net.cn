@@ -12,4 +12,4 @@ SYSTEM_REDIS_PORT = 6379
 SYSTEM_REDIS_PASS = maliang
 
 YII_DEBUG = true
-YII_ENV = dev
+YII_ENV = ''

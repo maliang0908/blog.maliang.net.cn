@@ -14,6 +14,8 @@ return array(
     'yii\\composer\\' => array($vendorDir . '/yiisoft/yii2-composer'),
     'yii\\bootstrap\\' => array($vendorDir . '/yiisoft/yii2-bootstrap'),
     'yii\\' => array($vendorDir . '/yiisoft/yii2'),
+    'yidashi\\webuploader\\' => array($vendorDir . '/yidashi/yii2-webuploader'),
+    'yidashi\\markdown\\' => array($vendorDir . '/yidashi/yii2-bootstrap-markdown'),
     'traversient\\yii\\customscrollbar\\' => array($vendorDir . '/dhiraj/yii2-malihu-custom-scrollbar-plugin'),
     'sersid\\fontawesome\\' => array($vendorDir . '/sersid/yii2-font-awesome-asset'),
     'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/type-resolver/src', $vendorDir . '/phpdocumentor/reflection-docblock/src'),
